@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>survey form</title>
+    <link rel="stylesheet" href="survey form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="title name">
+        <h1>Survey form for health insurance</h1>
+    </div>
+    <hr>
+    <div class="description">
+        <p>Buying a health insurance policy for yourself and your family is important because medical care is expensive, especially in the private sector. All this can be avoided by just paying a small annual premium which would lessen your stress in case
+            of medical emergencies. Here's a small survey form that help us reach out to you and help you plan and purchase a health insurance plan that suits you or your family.</p>
+    </div>
+    <br>
+    <h2>Please fill the survey form below</h2>
+    <hr><br>
+    <section class="container">
+        <form action="">
+            <div class="name">
+                <label for="name">Enter your name</label>
+                <input id="name" name="name" type="text" placeholder="Enter your name">
+            </div><br>
+            <div class="email">
+                <label for="email">Enter your email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email address">
+            </div><br>
+            <div class="birthday">
+                <label for="birthday">Enter your date of birth</label>
+                <input type="date" name="birthday" id="birthday">
+            </div><br>
+            <div class="number">
+                <label for="number">Enter your number</label>
+                <input type="number" name="birthday" id="number" placeholder="Enter your number" min="1" max="9">
+            </div><br>
+            <div class="dropdowm">
+                <label for="insurance type">Chosse the insurance type</label>
+                <select name="insurance type" id="insurancetype">
+                        <option value="">please select insurance type</option>
+                        <option value="Maternity">Maternity</option>
+                        <option value="Life Insurance">Life Insurance</option>
+                        <option value="Study Insurance">Study Insurance</option>
+                        <option value="COVID-19 Insurance">COVID-19 Insurance</option>
+                        <option value="Jobloss Insurance">Jobloss Insurance</option>
+                    </select>
+
+            </div><br>
+            <div class="radio">
+                <label for="payment type">chose the term of payment:</label>
+                <input type="radio" name="payment" id="payment type" value="Quarterly">
+                <label for="payment type">Quarterly</label>
+                <input type="radio" name="payment" id="payment" value="Half-yearly">
+                <label for="payment type">Half-yearly</label>
+                <input type="radio" name="payment" id="payment type value=" Yearly ">
+                    <label for="payment type ">Yearly</label>
+                                                                
+    
+                </div><br>
+                <div class="check-box ">
+                    <p><input type="checkbox " for="Agree " name="agree ">
+                    <label for="Agree ">PLease check this if you agree to the terms of the policy</label></p>
+                    <p><input type="checkbox " for="covid " name="covid ">
+                    <label for="covid ">please check this if you are ever tested positive for COVID-19</label></p> 
+                    
+                </div><br>
+                <div class="Additional comments ">
+                    <label for="additional comments ">Additional comments:</label>
+                    <textarea id="additional comments " rows=" " columns="10 "></textarea>
+                </div><br>
+                <div>
+                    <label for="button "></label>
+                    <button class="butt ">Submit</button>
+                </div><br>
+        </section>
+        
+        
+        </form>
+    </body>
+</html>
